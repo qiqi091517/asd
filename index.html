@@ -6,10 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/swiper-4.2.6.min.css">
+    <link rel="stylesheet" href="fonts2/iconfont.css">
+    <script src="js/swiper-4.2.6.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/flexible.js"></script>
+    <script src="js/zepto.js"></script>
 </head>
 
 <body>
-    11111111
+    <div class="wrap">
+        <header>
+            <input type="text" class="inpt">
+        </header>
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <ul class='list'>
+                    <li>
+                        <i class="icon iconfont icon-set"></i>
+                        <h6>休闲娱乐</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-infenicon18"></i>
+                        <h6>火车票</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-phonenum"></i>
+                        <h6>充值中心</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-tianmao1"></i>
+                        <h6>周边游</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-tianmao2"></i>
+                        <h6>代金券</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-daishouhuo-01"></i>
+                        <h6>美食</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-quanbudingdan-01"></i>
+                        <h6>电影演出</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-youhuiquan-01"></i>
+                        <h6>酒店</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-shengyin"></i>
+                        <h6>KTV</h6>
+                    </li>
+                    <li>
+                        <i class="icon iconfont icon-shouye"></i>
+                        <h6>外卖</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="imgs/2.png" alt="">
+                <img src="imgs/3.png" alt="">
+            </div>
+        </section>
+        <footer>
+
+            <dl>
+                <dt><i class="icon iconfont icon-wode"></i></dt>
+                <dd>个人中心</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-wode"></i></dt>
+                <dd>个人中心</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-wode"></i></dt>
+                <dd>个人中心</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-wode"></i></dt>
+                <dd>个人中心</dd>
+            </dl>
+            <dl>
+                <dt><i class="icon iconfont icon-wode"></i></dt>
+                <dd>个人中心</dd>
+            </dl>
+
+        </footer>
+    </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
 </body>
 
 </html>
